@@ -14,6 +14,6 @@ variable "key_name" {
 }
 
 variable "ec2_ami" {
-  description = "AMI ID for EC2 instance"
+  description = "AMI ID for EC2 instance for mongodb"
   type        = string
 }
