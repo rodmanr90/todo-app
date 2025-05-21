@@ -10,10 +10,8 @@ variable "s3_bucket_name" {
 
 variable "key_name" {
   description = "EC2 SSH key pair name"
-  type        = string
 }
 
 variable "ec2_ami" {
   description = "AMI ID for EC2 instance for mongodb"
-  type        = string
 }
